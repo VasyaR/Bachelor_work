@@ -18,7 +18,7 @@ babel==2.16.0
 bds-courseware==1.1.2
 beautifulsoup4==4.12.3
 bleach==6.1.0
-blinker==1.4
+blinker==1.8.2
 boto3==1.34.131
 botocore==1.34.131
 branca==0.7.2
@@ -41,6 +41,7 @@ exceptiongroup==1.2.2
 executing==2.0.1
 fastjsonschema==2.20.0
 filelock==3.15.4
+Flask==3.0.3
 folium==0.17.0
 fonttools==4.53.1
 fqdn==1.5.1
@@ -58,6 +59,7 @@ ipykernel==6.29.5
 ipython==8.26.0
 ipywidgets==8.1.3
 isoduration==20.11.0
+itsdangerous==2.2.0
 jedi==0.19.1
 jeepney==0.7.1
 Jinja2==3.1.4
@@ -168,6 +170,7 @@ wcwidth==0.2.13
 webcolors==24.6.0
 webencodings==0.5.1
 websocket-client==1.8.0
+Werkzeug==3.0.4
 widgetsnbextension==4.0.11
 wrapt==1.16.0
 xgboost==2.1.1
