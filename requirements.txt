@@ -106,6 +106,8 @@ notebook_shim==0.2.4
 numpy==1.26.4
 nvidia-nccl-cu12==2.22.3
 oauthlib==3.2.0
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
 overrides==7.7.0
 packaging==24.1
 pandas==2.2.2
