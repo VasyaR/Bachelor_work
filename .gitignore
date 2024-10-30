@@ -170,3 +170,6 @@ data/
 model_150_stuff/
 model_200_stuff/
 model_300_stuff/
+model_pretrained_150_stuff/
+model_pretrained_200_stuff/
+model_pretrained_300_stuff/
