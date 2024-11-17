@@ -33,6 +33,10 @@ def recognize_kanji(image_path, black_background=True, confidence_threshold=0.5)
         return "Can't recognize kanji"
 
     # Convert the predicted index to the corresponding kanji character
-    predicted_kanji = kanji_mapping[str(predicted.item())]
+    predicted_unicode = kanji_mapping[str(predicted.item())]
+    if predicted_unicode.startswith("U+"):
+        predicted_kanji = chr(int(predicted_unicode[2:], 16))
+    else:
+        predicted_kanji = predicted_unicode
 
     return predicted_kanji
