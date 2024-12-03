@@ -1,0 +1,7 @@
+This package is created for recognizing kanji from images. 
+The model that is used for recognizing is Preact-Resnet-18.
+Model can destinguish 300 classes with most sample from KKanji https://github.com/rois-codh/kmnist.
+The model was trained on 64x64 grayscale images with white kanji on black backgound.
+You are able to use function recognize_kanji() with black_background=False in case you have the opposite situation.
+Also, in case you want to experiment more, you can change model_confidence from .. to .., but the initial value
+is set with value, that showed best performance during our experiments.
