@@ -17,7 +17,7 @@ setup(
                     'json',
                     'PIL',
                       ],
-    package_data={'KKanjiRecognizerPackage': ['PackageData/model_300_weights.pth', 'PackageData/kanji_mapping.json']},
+    package_data={'KKanjiRecognizerPackage': ['PackageData/model_300_weights.pth', 'PackageData/kanji_mapping.json', "PackageData/threshold.pth"]},
     url='https://github.com/VasyaR/Bachelor_work',
     author='Vasyl Rusyn',
     author_email='vasyarusynb@gmail.com'

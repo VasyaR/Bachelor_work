@@ -4,11 +4,11 @@ from PIL import Image, ImageOps
 def invert_image(image):
 
     if isinstance(image, Image.Image):
-
+        if image.mode == 'RGBA':
+            # Convert RGBA to RGB
+            image = image.convert('RGB')
         return ImageOps.invert(image)
-
     else:
-
         raise TypeError("Input should be a PIL Image")
     
 my_transform = transforms.Compose([
