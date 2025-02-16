@@ -78,6 +78,7 @@ for class_name, sample_amount in tqdm(unknown_classes.items(), desc="Copying sam
     for sample in samples:
         shutil.copy(os.path.join(class_folder, sample), os.path.join(unknown_folder, sample))
 """
+
 remaining_samples = 652
 for class_name, sample_amount in tqdm(top_178_of_top_300_classes.items(), desc="Copying samples to the known folder1"):
     # Copy the samples to the known folder
