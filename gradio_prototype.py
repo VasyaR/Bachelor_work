@@ -4,10 +4,10 @@ import gradio as gr
 def wrapped_function(image, black_background, confidence_threshold):
     if confidence_threshold == "":
         confidence_threshold = -999
-    return recognize_kanji(image, black_background, float(confidence_threshold))
+    result = recognize_kanji(image, black_background, float(confidence_threshold))
+    return f"<div style='font-size:96px; text-align:center; font-weight:bold'>{result}</div>"
 
 with gr.Blocks(css="""
-    #output-text {font-size: 64px !important; text-align: center; width: 100%; font-weight: bold;}
     #output-header {text-align: center; font-size: 128px !important; font-weight: bold;}
 """) as demo:
     gr.Markdown("## Kanji Recognition Model")
