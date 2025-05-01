@@ -1,0 +1,3 @@
+include KKanjiRecognizerPackage/PackageData/model_300_weights.pth
+include KKanjiRecognizerPackage/PackageData/kanji_mapping.json
+include KKanjiRecognizerPackage/PackageData/threshold.pth

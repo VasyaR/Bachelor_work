@@ -164,3 +164,23 @@ cython_debug/
 
 #Data
 kanji/
+kkanji/
+追加/
+data/
+model_150_stuff/
+model_200_stuff/
+model_300_stuff/
+model_pretrained_150_stuff/
+model_pretrained_200_stuff/
+model_pretrained_300_stuff/
+model_CASIA_HWDB_stuff/
+model_augmented_150_stuff/
+model_augmented_200_stuff/
+model_augmented_300_stuff/
+model_pretrained_unfreeze_all_150_stuff/
+model_pretrained_unfreeze_all_200_stuff/
+model_pretrained_unfreeze_all_300_stuff/
+model_pretrained_unfreeze_last_150_stuff/
+model_pretrained_unfreeze_last_200_stuff/
+model_pretrained_unfreeze_last_300_stuff/
+PackageData/
