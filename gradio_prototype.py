@@ -5,6 +5,8 @@ def wrapped_function(image, black_background, confidence_threshold):
     if confidence_threshold == "":
         confidence_threshold = -999
     result = recognize_kanji(image, black_background, float(confidence_threshold))
+    if result == "Can't recognize kanji":
+        return f"<div style='font-size:72px; text-align:center; font-weight:bold'>{result}</div>"
     return f"<div style='font-size:96px; text-align:center; font-weight:bold'>{result}</div>"
 
 with gr.Blocks(css="""
